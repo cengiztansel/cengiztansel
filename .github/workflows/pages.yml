@@ -1,0 +1,24 @@
+name: Deploy To-Do App to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # main branch’e push olunca çalışacak
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # Repo’yu checkout et
+      - uses: actions/checkout@v3
+
+      # GitHub Pages için yapılandır
+      - uses: actions/configure-pages@v3
+
+      # Todo-app klasörünü deploy edilecek artifact olarak ekle
+      - uses: actions/upload-pages-artifact@v1
+        with:
+          path: './todo-app'   # deploy edilecek klasör
+
+      # GitHub Pages’e deploy et
+      - uses: actions/deploy-pages@v1
