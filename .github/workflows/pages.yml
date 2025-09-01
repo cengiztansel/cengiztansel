@@ -21,3 +21,4 @@ jobs:
 
       - name: Deploy to Pages
         uses: actions/deploy-pages@v1
+upload-pages-artifact@v2
