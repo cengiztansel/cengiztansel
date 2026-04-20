@@ -1,7 +1,25 @@
-echo "# cengiztansel" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/cengiztansel/cengiztansel.git
-git push -u origin main
+# 👋 Hi, I'm Cengiz Tansel
+a results-driven Information Systems Specialist hailing from the Ankara City of Türkiye.
+
+I specialized in creating scalable backend and frontend solutions using technologies like 
+JavaEE, SpringBoot, Nodejs, Javascript, Python, PHP, MongoDB, PostgreSQL, Mysql, 
+Docker, Kubernates, Microservices, React and so on.
+
+With a solid academic foundation including a BSc in METU Physics, METU MSc in Information Systems, 
+METU Computer Engineering Certificate in programming, METU Industrial Engineering Minor, 
+MBA and PhD in Business Management, 
+I can effectively merge technical capabilities with business strategies.
+
+## 🚀 Tech Stack
+- Java / Spring Boot
+- Docker / DevOps
+- React / Node.js
+
+## 📌 Projects
+- level1-nginx-lab → link
+- dashboard project → link
+
+## 📫 Contact
+Email: cengiz_tansel@yahoo.com.tr
+https://cengiztansel.github.io/
+https://cengiztansel-github-io.vercel.app
